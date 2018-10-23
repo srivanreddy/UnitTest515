@@ -1,0 +1,9 @@
+install: true
+
+jdk:
+  - oraclejdk8
+
+script:
+  - gradle run
+  - gradle build
+  - gradle test
